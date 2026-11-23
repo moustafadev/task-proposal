@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="ar" dir="rtl">
+<html lang="en" dir="ltr">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -434,7 +434,7 @@
   (function () {
     var buttons = document.querySelectorAll('.toggle button');
     function setLang(lang) {
-      if (lang !== 'en') lang = 'ar';
+      if (lang !== 'ar') lang = 'en';
       var root = document.documentElement;
       root.lang = lang;
       root.dir = lang === 'ar' ? 'rtl' : 'ltr';
@@ -444,7 +444,7 @@
     }
     buttons.forEach(function (b) { b.addEventListener('click', function () { setLang(b.dataset.set); }); });
     window.addEventListener('hashchange', function () { setLang(location.hash.slice(1)); });
-    setLang(location.hash.slice(1) || 'ar');
+    setLang(location.hash.slice(1) || 'en');
   })();
 </script>
 </body>
