@@ -105,231 +105,103 @@
     </div>
   </div>
 
-  <!-- ===================== ARABIC ===================== -->
-  <main data-lang="ar">
-    <header class="hero">
-      <h1>TASK – العرض الفني والمالي</h1>
-      <div class="meta">منصة الخدمات اليومية · إعداد: مصطفى · 23 نوفمبر 2026</div>
-      <div class="kpis">
-        <div class="kpi"><b>5,000$</b><span>التكلفة الإجمالية</span></div>
-        <div class="kpi"><b>8 أسابيع</b><span>مدة التنفيذ</span></div>
-        <div class="kpi"><b>6 أشهر</b><span>دعم مجاني لإصلاح الأخطاء</span></div>
-      </div>
-    </header>
-
-    <section class="card">
-      <h2>المقدمة وفهم المشروع</h2>
-      <p>نقترح بناء منصة TASK كاملة خلال 8 أسابيع وبتكلفة إجمالية قدرها 5,000 دولار أمريكي، وتشمل تطبيق العملاء وتطبيق مزوّدي الخدمة (Android و iOS) والخادم الخلفي ولوحة تحكم الإدارة.</p>
-      <p>TASK منصة رقمية تربط العملاء في العراق بمزوّدي خدمات مؤهلين، مثل الكهربائي والسبّاك وعامل التنظيف وفني الصيانة. بدلاً من البحث عبر الاتصالات والمعارف، يفتح المستخدم التطبيق ويختار الخدمة ويرسل طلبه، فيصل الطلب إلى المزوّدين المناسبين في منطقته.</p>
-      <p>سيتولى التنفيذ مصطفى، مطوّر بخبرة تجارية تزيد على 4 سنوات في Flutter وتطوير الخوادم وربط الـ API. من أحدث أعماله تطبيق SuperApp، وهو منصة خدمات متعددة (تسوّق، طلب طعام، توصيل، محادثة) منشورة على App Store و <a href="https://play.google.com/store/apps/details?id=ru.super_app" target="_blank" rel="noopener">Google Play</a>، مع موقع ويب على <a href="https://superap.ru" target="_blank" rel="noopener">superap.ru</a>.</p>
-    </section>
-
-    <section class="card">
-      <h2>نطاق العمل</h2>
-      <p>يتكوّن المشروع من أربعة أجزاء مترابطة تعمل على قاعدة بيانات واحدة، وتدعم اللغتين العربية والإنكليزية مع واجهة من اليمين إلى اليسار.</p>
-      <h3>1. تطبيق العميل (Android و iOS)</h3>
-      <ul>
-        <li>التسجيل وتسجيل الدخول برقم الهاتف ورمز تحقق (OTP)</li>
-        <li>تصفّح أقسام الخدمات والبحث عنها</li>
-        <li>إنشاء طلب: وصف المشكلة، صور، تحديد الموقع على الخريطة، اختيار الموعد</li>
-        <li>استلام عروض الأسعار من المزوّدين والمقارنة بينها</li>
-        <li>تتبّع حالة الطلب حتى الإنجاز</li>
-        <li>محادثة فورية مع المزوّد داخل التطبيق</li>
-        <li>الدفع نقداً عند الإنجاز، مع تجهيز النظام لربط بوابة دفع إلكتروني</li>
-        <li>تقييم المزوّد وكتابة مراجعة</li>
-        <li>الإشعارات الفورية، سجل الطلبات، العناوين المحفوظة، الملف الشخصي</li>
-      </ul>
-      <h3>2. تطبيق مزوّد الخدمة (Android و iOS)</h3>
-      <ul>
-        <li>التسجيل ورفع الوثائق (الهوية، الشهادات) للتحقق من قبل الإدارة</li>
-        <li>تحديد التخصصات ومناطق العمل وأوقات التوفر</li>
-        <li>استلام الطلبات القريبة وقبولها أو تقديم عرض سعر</li>
-        <li>تحديث حالة الطلب والمحادثة مع العميل</li>
-        <li>سجل الأعمال والأرباح وعمولة المنصة المستحقة</li>
-        <li>التقييمات والإشعارات</li>
-      </ul>
-      <h3>3. الخادم الخلفي وقاعدة البيانات</h3>
-      <ul>
-        <li>واجهات برمجية (REST API) آمنة لكل التطبيقات</li>
-        <li>منطق توزيع الطلبات على المزوّدين حسب التخصص والموقع</li>
-        <li>المحادثة الفورية والإشعارات ورسائل OTP</li>
-        <li>حساب العمولات والتقارير، والنسخ الاحتياطي الدوري</li>
-      </ul>
-      <h3>4. لوحة تحكم الإدارة (ويب)</h3>
-      <ul>
-        <li>إدارة العملاء والمزوّدين وقبول طلبات انضمام المزوّدين</li>
-        <li>إدارة الأقسام والخدمات والمدن والعمولات</li>
-        <li>متابعة الطلبات والشكاوى والتقييمات</li>
-        <li>إرسال إشعارات عامة والعروض الترويجية</li>
-        <li>لوحة إحصائيات: الطلبات، الإيرادات، المستخدمون النشطون</li>
-        <li>صلاحيات متعددة لفريق الإدارة</li>
-      </ul>
-    </section>
-
-    <section class="card">
-      <h2>التقنيات المستخدمة</h2>
-      <p>اخترنا تقنيات مستقرة ومنتشرة تضمن سهولة التطوير والتوسّع مستقبلاً.</p>
-      <div class="table-scroll"><table>
-        <thead><tr><th>الجزء</th><th>التقنية</th></tr></thead>
-        <tbody>
-          <tr><td>تطبيقات الجوال</td><td>Flutter (كود واحد لـ Android و iOS)</td></tr>
-          <tr><td>الخادم الخلفي</td><td>Laravel (PHP)</td></tr>
-          <tr><td>قاعدة البيانات</td><td>PostgreSQL + Redis</td></tr>
-          <tr><td>لوحة الإدارة</td><td>React / Next.js</td></tr>
-          <tr><td>المحادثة الفورية</td><td>WebSockets</td></tr>
-          <tr><td>الإشعارات</td><td>Firebase Cloud Messaging</td></tr>
-          <tr><td>الخرائط والموقع</td><td>Google Maps</td></tr>
-          <tr><td>الاستضافة</td><td>خادم سحابي (AWS أو DigitalOcean)</td></tr>
-          <tr><td>الدفع الإلكتروني (اختياري)</td><td>ZainCash أو Qi Card أو FastPay حسب الاتفاق</td></tr>
-        </tbody>
-      </table></div>
-    </section>
-
-    <section class="card">
-      <h2>مراحل المشروع والجدول الزمني</h2>
-      <p>يُسلَّم المشروع منشوراً على المتاجر خلال 8 أسابيع من استلام الدفعة الأولى، وبعض المراحل تسير بالتوازي لتقليل المدة.</p>
-      <div class="table-scroll"><table>
-        <thead><tr><th>المرحلة</th><th>الأسابيع</th><th>المخرجات</th></tr></thead>
-        <tbody>
-          <tr><td>1. تحليل المتطلبات</td><td>1</td><td>وثيقة متطلبات نهائية ومخطط الشاشات</td></tr>
-          <tr><td>2. تصميم الواجهات UI/UX</td><td>1–3</td><td>تصاميم Figma كاملة للتطبيقين واللوحة</td></tr>
-          <tr><td>3. الخادم وقاعدة البيانات</td><td>2–6</td><td>API جاهزة على خادم تجريبي</td></tr>
-          <tr><td>4. تطوير تطبيقي الجوال</td><td>3–7</td><td>نسخ تجريبية قابلة للتثبيت</td></tr>
-          <tr><td>5. لوحة تحكم الإدارة</td><td>5–7</td><td>لوحة ويب مربوطة بالنظام</td></tr>
-          <tr><td>6. الاختبار والنسخة التجريبية</td><td>7–8</td><td>تجربة مع مستخدمين حقيقيين وإصلاح الملاحظات</td></tr>
-          <tr><td>7. الإطلاق</td><td>8</td><td>النشر على App Store و Google Play وتشغيل الخادم الإنتاجي</td></tr>
-        </tbody>
-      </table></div>
-      <p>يحصل العميل على تحديث أسبوعي ونسخة تجريبية يمكنه متابعتها طوال فترة التطوير.</p>
-    </section>
-
-    <section class="card">
-      <h2>التكلفة ودفعات السداد</h2>
-      <p>التكلفة الإجمالية 5,000 دولار أمريكي، موزّعة على أجزاء المشروع كالتالي:</p>
-      <div class="table-scroll"><table>
-        <thead><tr><th>البند</th><th class="num">التكلفة (USD)</th></tr></thead>
-        <tbody>
-          <tr><td>تصميم الواجهات UI/UX</td><td class="num">600</td></tr>
-          <tr><td>تطبيق العميل</td><td class="num">1,200</td></tr>
-          <tr><td>تطبيق مزوّد الخدمة</td><td class="num">900</td></tr>
-          <tr><td>الخادم الخلفي وقاعدة البيانات</td><td class="num">1,400</td></tr>
-          <tr><td>لوحة تحكم الإدارة</td><td class="num">650</td></tr>
-          <tr><td>الاختبار والنشر على المتاجر</td><td class="num">250</td></tr>
-          <tr class="total"><td>المجموع</td><td class="num">5,000</td></tr>
-        </tbody>
-      </table></div>
-      <p>دفعات السداد مربوطة بإنجاز فعلي يراه العميل قبل كل دفعة:</p>
-      <div class="table-scroll"><table>
-        <thead><tr><th>الدفعة</th><th>متى تُستحق</th><th class="num">النسبة</th><th class="num">المبلغ (USD)</th></tr></thead>
-        <tbody>
-          <tr><td>1</td><td>عند توقيع الاتفاق وبدء العمل</td><td class="num">30%</td><td class="num">1,500</td></tr>
-          <tr><td>2</td><td>عند اعتماد التصاميم النهائية</td><td class="num">20%</td><td class="num">1,000</td></tr>
-          <tr><td>3</td><td>عند تسليم النسخ التجريبية الكاملة</td><td class="num">30%</td><td class="num">1,500</td></tr>
-          <tr><td>4</td><td>عند النشر على المتاجر والتسليم النهائي</td><td class="num">20%</td><td class="num">1,000</td></tr>
-        </tbody>
-      </table></div>
-      <p class="muted">لا تشمل التكلفة رسوم الخدمات الخارجية التي يدفعها العميل مباشرة: حسابا المطوّر في Apple (99 دولاراً سنوياً) و Google (25 دولاراً مرة واحدة)، الاستضافة، رسائل SMS، وخرائط Google عند تجاوز الحد المجاني. ربط بوابة دفع إلكتروني يُسعّر منفصلاً بعد اختيار البوابة.</p>
-    </section>
-
-    <section class="card">
-      <h2>المخرجات والدعم</h2>
-      <p>يستلم العميل نظاماً منشوراً وعاملاً، مع ملكية كاملة للكود بعد سداد الدفعة الأخيرة.</p>
-      <ul>
-        <li>تطبيق العميل وتطبيق المزوّد منشوران على App Store و Google Play باسم العميل</li>
-        <li>لوحة تحكم الإدارة على نطاق (دومين) العميل</li>
-        <li>الخادم وقاعدة البيانات مشغّلان على استضافة باسم العميل</li>
-        <li>الكود المصدري الكامل وملفات التصميم (Figma)</li>
-        <li>توثيق الـ API ودليل استخدام لوحة الإدارة</li>
-        <li>جلسة تدريب لفريق الإدارة</li>
-      </ul>
-      <div class="note"><strong>الدعم المجاني:</strong> 6 أشهر بعد الإطلاق، ويقتصر على إصلاح الأخطاء البرمجية (Bugs) في الميزات المتفق عليها فقط. التعديلات والميزات الجديدة غير مشمولة، وتُسعّر بالاتفاق أو ضمن عقد صيانة شهري.</div>
-    </section>
-
-    <section class="card">
-      <h2>الافتراضات والخطوات التالية</h2>
-      <p>العرض مبني على وصف الفكرة المرسَل، وأي ميزة خارج النطاق أعلاه تُسعّر وتُجدوَل بالاتفاق.</p>
-      <h3>ما يوفّره العميل</h3>
-      <ul>
-        <li>الشعار والهوية البصرية (أو يُضاف تصميمها كخدمة منفصلة)</li>
-        <li>قائمة أقسام الخدمات والمدن المستهدفة عند الإطلاق</li>
-        <li>حسابا المطوّر في Apple و Google، والنطاق والاستضافة</li>
-        <li>نصوص السياسات: الخصوصية وشروط الاستخدام</li>
-        <li>مراجعة واعتماد كل مرحلة خلال 5 أيام عمل</li>
-      </ul>
-      <h3>الخطوات التالية</h3>
-      <ol>
-        <li>اجتماع قصير لمراجعة العرض وتأكيد الميزات المطلوبة</li>
-        <li>توقيع الاتفاق واستلام الدفعة الأولى</li>
-        <li>بدء مرحلة تحليل المتطلبات في نفس الأسبوع</li>
-      </ol>
-      <p class="muted">العرض ساري لمدة 30 يوماً من تاريخه.</p>
-    </section>
-  </main>
-
   <!-- ===================== ENGLISH ===================== -->
   <main data-lang="en">
     <header class="hero">
       <h1>TASK – Technical &amp; Financial Proposal</h1>
-      <div class="meta">Everyday Services Platform · Prepared by Mostafa · 23 November 2026</div>
+      <div class="meta">Everyday Services Platform · Phase 1 · Prepared by Mostafa · 25 November 2026</div>
       <div class="kpis">
-        <div class="kpi"><b>$5,000</b><span>Total cost</span></div>
-        <div class="kpi"><b>8 weeks</b><span>Delivery time</span></div>
-        <div class="kpi"><b>6 months</b><span>Free bug-fix support</span></div>
+        <div class="kpi"><b>$5,000</b><span>Phase 1 total cost</span></div>
+        <div class="kpi"><b>8–10 weeks</b><span>Development time</span></div>
+        <div class="kpi"><b>6 months</b><span>Free support &amp; maintenance</span></div>
       </div>
     </header>
 
     <section class="card">
-      <h2>Introduction &amp; Project Understanding</h2>
-      <p>We propose building the complete TASK platform in 8 weeks for a total of USD 5,000. This covers the customer app and the service provider app (Android and iOS), the backend, and the admin dashboard.</p>
-      <p>TASK is a digital platform that connects customers in Iraq with qualified service providers such as electricians, plumbers, cleaners and maintenance technicians. Instead of searching through phone calls and personal contacts, users open the app, pick a service and submit a request, which reaches suitable providers in their area.</p>
-      <p>The project will be delivered by Mostafa, a developer with over 4 years of commercial experience in Flutter, backend development and API integration. A recent project is SuperApp, a multi-service marketplace (shopping, food ordering, delivery, chat) live on the App Store and <a href="https://play.google.com/store/apps/details?id=ru.super_app" target="_blank" rel="noopener">Google Play</a>, with a website at <a href="https://superap.ru" target="_blank" rel="noopener">superap.ru</a>.</p>
+      <h2>Introduction</h2>
+      <p>Phase 1 delivers TASK as a complete, production-ready platform, not a demo: the customer app and the captain app (Android and iOS), the backend, and the admin dashboard, ready for real customers and real payments. Development takes 8–10 weeks, for a total of USD 5,000.</p>
+      <p>TASK connects customers in Iraq with verified service providers (captains) such as electricians, plumbers, cleaners and maintenance technicians. Customers pick a service, book a captain, pay in cash or online, and rate the job.</p>
+      <p>The project will be delivered by Mostafa, a developer with over 4 years of commercial experience in Flutter, backend development, API and payment gateway integration. A recent project is SuperApp, a multi-service marketplace (shopping, food ordering, delivery, chat) live on the App Store and <a href="https://play.google.com/store/apps/details?id=ru.super_app" target="_blank" rel="noopener">Google Play</a>, with a website at <a href="https://superap.ru" target="_blank" rel="noopener">superap.ru</a>.</p>
     </section>
 
     <section class="card">
-      <h2>Scope of Work</h2>
-      <p>The project has four connected parts sharing one database, with full Arabic and English support and a right-to-left interface.</p>
+      <h2>Phase 1 Scope</h2>
+      <p>All parts share one backend and database, with full Arabic and English support and a right-to-left interface.</p>
       <h3>1. Customer App (Android &amp; iOS)</h3>
       <ul>
         <li>Sign up and log in with phone number and OTP verification</li>
-        <li>Browse and search service categories</li>
-        <li>Create a request: problem description, photos, map location, preferred time</li>
-        <li>Receive and compare price offers from providers</li>
-        <li>Track request status until completion</li>
-        <li>In-app real-time chat with the provider</li>
-        <li>Cash on completion, with the system ready for an online payment gateway</li>
-        <li>Rate and review the provider</li>
-        <li>Push notifications, order history, saved addresses, profile</li>
+        <li>Browse service categories and sub-categories, and search</li>
+        <li>Find captains by location, rating, price, experience and availability</li>
+        <li>Create a request with description, photos, map location and preferred time</li>
+        <li>Pay online through an Iraqi payment gateway, or in cash on completion</li>
+        <li>Track booking status, chat with the captain in real time</li>
+        <li>Rate and review the captain, submit complaints</li>
+        <li>Push notifications, booking history, saved addresses, profile</li>
       </ul>
-      <h3>2. Service Provider App (Android &amp; iOS)</h3>
+      <h3>2. Captain App (Android &amp; iOS)</h3>
       <ul>
-        <li>Registration and document upload (ID, certificates) for admin verification</li>
-        <li>Set specialties, service areas and availability</li>
-        <li>Receive nearby requests, accept them or send a price offer</li>
-        <li>Update request status and chat with the customer</li>
-        <li>Job history, earnings and platform commission due</li>
-        <li>Ratings and notifications</li>
+        <li>Registration with ID and certificate upload for admin verification</li>
+        <li>Offer multiple services from detailed categories, with a price for each service</li>
+        <li>Set working areas and availability</li>
+        <li>Receive bookings and inspection requests, send price quotations</li>
+        <li>Update job status and chat with the customer</li>
+        <li>Balance statement: jobs, earnings, commission owed and payouts</li>
       </ul>
-      <h3>3. Backend &amp; Database</h3>
+      <h3>3. Booking System</h3>
       <ul>
-        <li>Secure REST APIs for all apps</li>
-        <li>Request matching by specialty and location</li>
-        <li>Real-time chat, notifications and OTP messages</li>
-        <li>Commission calculation, reports and scheduled backups</li>
+        <li>Instant bookings</li>
+        <li>Scheduled bookings</li>
+        <li>Inspection requests: the captain visits and assesses the job first</li>
+        <li>Price quotations from the captain, with customer approval before work starts</li>
       </ul>
-      <h3>4. Admin Dashboard (Web)</h3>
+      <h3>4. Financial System</h3>
       <ul>
-        <li>Manage customers and providers, approve provider applications</li>
-        <li>Manage categories, services, cities and commissions</li>
-        <li>Monitor requests, complaints and reviews</li>
-        <li>Send broadcast notifications and promotions</li>
-        <li>Statistics: requests, revenue, active users</li>
+        <li>Automatic commission calculation per job, with rates set from the dashboard by category or by captain</li>
+        <li>Captain balances: earnings, commission owed and payouts</li>
+        <li>Cash transactions tracked, with automatic account suspension when unpaid commission passes a set limit</li>
+        <li>Online payments through one Iraqi payment gateway</li>
+        <li>Settlements recorded and marked as paid from the dashboard</li>
+        <li>Financial reports: revenue, commissions, payouts and outstanding balances by period, city and captain</li>
+        <li>Every money movement recorded in a financial ledger, so the numbers always match and can be audited</li>
+      </ul>
+      <h3>5. Admin Dashboard (Web)</h3>
+      <ul>
+        <li>Manage customers and captains, verify captain documents</li>
+        <li>Manage categories, services, cities and commission rates</li>
+        <li>Monitor bookings, payments, settlements, complaints and reviews</li>
+        <li>Financial reports and platform statistics</li>
+        <li>Discount codes and broadcast notifications</li>
         <li>Role-based access for the admin team</li>
       </ul>
     </section>
 
     <section class="card">
+      <h2>Scalable Architecture &amp; Future Phases</h2>
+      <p>Nothing built in Phase 1 is temporary. The same apps and backend grow with TASK.</p>
+      <ul>
+        <li>New services, categories and cities are added from the admin dashboard, with no development needed.</li>
+        <li>The backend is modular, so each new feature is a separate, independent piece.</li>
+        <li>The financial ledger is designed so that wallets, subscription plans, referral rewards and new payment methods are added as extensions, not rewrites.</li>
+      </ul>
+      <h3>Phase 2 (after launch, based on real usage)</h3>
+      <ul>
+        <li>In-app wallets with top-ups, automatic refunds and withdrawals</li>
+        <li>Captain subscription plans as an alternative to commission</li>
+        <li>Referral program and loyalty points</li>
+        <li>Smarter matching using response time, completion rate and complaint history</li>
+        <li>Additional payment gateways</li>
+      </ul>
+      <h3>Phase 3 (growth)</h3>
+      <ul>
+        <li>AI features: describe a problem by voice or photo and get the right service and an estimated price</li>
+        <li>Expansion to new cities and categories</li>
+        <li>Kurdish language support</li>
+      </ul>
+      <p class="muted">Future phases are quoted separately when planned.</p>
+    </section>
+
+    <section class="card">
       <h2>Technology Stack</h2>
-      <p>We chose stable, widely used technologies that are easy to maintain and scale.</p>
       <div class="table-scroll"><table>
         <thead><tr><th>Component</th><th>Technology</th></tr></thead>
         <tbody>
@@ -341,45 +213,46 @@
           <tr><td>Notifications</td><td>Firebase Cloud Messaging</td></tr>
           <tr><td>Maps &amp; location</td><td>Google Maps</td></tr>
           <tr><td>Hosting</td><td>Cloud server (AWS or DigitalOcean)</td></tr>
-          <tr><td>Online payment (optional)</td><td>ZainCash, Qi Card or FastPay, as agreed</td></tr>
+          <tr><td>Online payment</td><td>One Iraqi gateway: ZainCash, Qi Card or FastPay</td></tr>
         </tbody>
       </table></div>
     </section>
 
     <section class="card">
-      <h2>Project Phases &amp; Timeline</h2>
-      <p>The project goes live on the stores within 8 weeks of the first payment. Some phases run in parallel to shorten delivery.</p>
+      <h2>Timeline</h2>
+      <p>Development is completed within 8–10 weeks of the first payment. Some phases run in parallel.</p>
       <div class="table-scroll"><table>
         <thead><tr><th>Phase</th><th>Weeks</th><th>Output</th></tr></thead>
         <tbody>
           <tr><td>1. Requirements analysis</td><td>1</td><td>Final requirements document and screen map</td></tr>
           <tr><td>2. UI/UX design</td><td>1–3</td><td>Complete Figma designs for both apps and the dashboard</td></tr>
-          <tr><td>3. Backend &amp; database</td><td>2–6</td><td>APIs running on a staging server</td></tr>
-          <tr><td>4. Mobile app development</td><td>3–7</td><td>Installable test builds</td></tr>
-          <tr><td>5. Admin dashboard</td><td>5–7</td><td>Web dashboard connected to the system</td></tr>
-          <tr><td>6. Testing &amp; beta</td><td>7–8</td><td>Testing with real users and fixing feedback</td></tr>
-          <tr><td>7. Launch</td><td>8</td><td>Published on the App Store and Google Play, production server live</td></tr>
+          <tr><td>3. Backend, database &amp; financial system</td><td>2–8</td><td>APIs and payment integration on a staging server</td></tr>
+          <tr><td>4. Mobile apps</td><td>3–9</td><td>Installable test builds</td></tr>
+          <tr><td>5. Admin dashboard</td><td>5–9</td><td>Web dashboard connected to the system</td></tr>
+          <tr><td>6. Testing &amp; beta</td><td>9–10</td><td>Testing with real users and fixing feedback</td></tr>
+          <tr><td>7. Store submission</td><td>After development</td><td>Apps submitted to the App Store and Google Play, production server live</td></tr>
         </tbody>
       </table></div>
-      <p>The client receives a weekly update and a test build to follow progress throughout development.</p>
+      <div class="note"><strong>Store publishing:</strong> Apple and Google each review an app before publishing it. Review times are set by the stores, not by us. They usually take a few days, but can take longer, especially for a first submission.</div>
+      <p>You receive a weekly update and test builds to try throughout development.</p>
     </section>
 
     <section class="card">
       <h2>Cost &amp; Payment Milestones</h2>
-      <p>The total cost is USD 5,000, broken down as follows:</p>
+      <p>Phase 1 costs USD 5,000 in total:</p>
       <div class="table-scroll"><table>
         <thead><tr><th>Item</th><th class="num">Cost (USD)</th></tr></thead>
         <tbody>
           <tr><td>UI/UX design</td><td class="num">600</td></tr>
           <tr><td>Customer app</td><td class="num">1,200</td></tr>
-          <tr><td>Service provider app</td><td class="num">900</td></tr>
-          <tr><td>Backend &amp; database</td><td class="num">1,400</td></tr>
+          <tr><td>Captain app</td><td class="num">900</td></tr>
+          <tr><td>Backend, database &amp; financial system</td><td class="num">1,400</td></tr>
           <tr><td>Admin dashboard</td><td class="num">650</td></tr>
           <tr><td>Testing &amp; store publishing</td><td class="num">250</td></tr>
           <tr class="total"><td>Total</td><td class="num">5,000</td></tr>
         </tbody>
       </table></div>
-      <p>Each payment is tied to delivered work the client can see first:</p>
+      <p>Each payment is tied to delivered work you can see first:</p>
       <div class="table-scroll"><table>
         <thead><tr><th>#</th><th>Due</th><th class="num">Share</th><th class="num">Amount (USD)</th></tr></thead>
         <tbody>
@@ -389,41 +262,238 @@
           <tr><td>4</td><td>On store publishing and final handover</td><td class="num">20%</td><td class="num">1,000</td></tr>
         </tbody>
       </table></div>
-      <p class="muted">The cost excludes third-party fees paid directly by the client: Apple developer account (USD 99/year), Google developer account (USD 25 one-time), hosting, SMS, and Google Maps beyond the free tier. Online payment gateway integration is quoted separately once a gateway is chosen.</p>
+      <p class="muted">Third-party fees are paid directly by the client: Apple developer account (USD 99/year), Google developer account (USD 25 one-time), hosting, SMS, Google Maps beyond the free tier, and the payment gateway's transaction fees.</p>
     </section>
 
     <section class="card">
-      <h2>Deliverables &amp; Support</h2>
-      <p>The client receives a live, working system with full code ownership after the final payment.</p>
+      <h2>Support, Maintenance &amp; Ownership</h2>
+      <div class="note"><strong>6 months of free support and maintenance after launch:</strong> bug fixes in the agreed features, server monitoring, and updates needed for new Android and iOS versions. After that, an optional monthly maintenance plan can be agreed. New features are quoted separately per phase.</div>
+      <p><strong>Full ownership:</strong> after the final payment you own the full source code, designs and all accounts. The apps are published under your developer accounts and the servers run under your name.</p>
+      <h3>Deliverables</h3>
       <ul>
-        <li>Customer and provider apps published on the App Store and Google Play under the client's account</li>
-        <li>Admin dashboard on the client's domain</li>
-        <li>Backend and database running on hosting under the client's name</li>
-        <li>Full source code and design files (Figma)</li>
-        <li>API documentation and an admin dashboard user guide</li>
+        <li>Customer and captain apps on the App Store and Google Play</li>
+        <li>Admin dashboard on your domain</li>
+        <li>Backend and database on hosting under your name</li>
+        <li>Full source code and Figma design files</li>
+        <li>API documentation and an admin dashboard guide</li>
         <li>A training session for the admin team</li>
       </ul>
-      <div class="note"><strong>Free support:</strong> 6 months after launch, limited to fixing bugs in the agreed features only. Changes and new features are not included; they are quoted separately or covered under a monthly maintenance plan.</div>
     </section>
 
     <section class="card">
-      <h2>Assumptions &amp; Next Steps</h2>
-      <p>This proposal is based on the project description provided. Any feature outside the scope above is quoted and scheduled by agreement.</p>
+      <h2>Client Provides &amp; Next Steps</h2>
       <h3>Client provides</h3>
       <ul>
-        <li>Logo and brand identity (or design added as a separate service)</li>
+        <li>Logo and brand identity</li>
         <li>List of service categories and target cities at launch</li>
         <li>Apple and Google developer accounts, domain and hosting</li>
-        <li>Policy texts: privacy policy and terms of use</li>
+        <li>A merchant account with the chosen payment gateway, opened early since approval can take time</li>
+        <li>Privacy policy and terms of use</li>
         <li>Review and approval of each phase within 5 working days</li>
       </ul>
       <h3>Next steps</h3>
       <ol>
-        <li>A short call to review the proposal and confirm the features</li>
+        <li>A short call to confirm the final Phase 1 list</li>
         <li>Sign the agreement and make the first payment</li>
         <li>Start requirements analysis the same week</li>
       </ol>
       <p class="muted">This proposal is valid for 30 days from its date.</p>
+    </section>
+  </main>
+
+  <!-- ===================== ARABIC ===================== -->
+  <main data-lang="ar">
+    <header class="hero">
+      <h1>TASK – العرض الفني والمالي</h1>
+      <div class="meta">منصة الخدمات اليومية · المرحلة الأولى · إعداد: مصطفى · 25 نوفمبر 2026</div>
+      <div class="kpis">
+        <div class="kpi"><b>5,000$</b><span>تكلفة المرحلة الأولى</span></div>
+        <div class="kpi"><b>8–10 أسابيع</b><span>مدة التطوير</span></div>
+        <div class="kpi"><b>6 أشهر</b><span>دعم وصيانة مجانية</span></div>
+      </div>
+    </header>
+
+    <section class="card">
+      <h2>المقدمة</h2>
+      <p>تُسلِّم المرحلة الأولى منصة TASK كمنتج كامل جاهز للتشغيل الفعلي وليس نسخة تجريبية: تطبيق العملاء وتطبيق الكباتن (Android و iOS) والخادم الخلفي ولوحة تحكم الإدارة، جاهزة لعملاء حقيقيين ومدفوعات حقيقية. مدة التطوير 8–10 أسابيع، بتكلفة إجمالية 5,000 دولار أمريكي.</p>
+      <p>TASK تربط العملاء في العراق بمزوّدي خدمات موثّقين (الكباتن)، مثل الكهربائي والسبّاك وعامل التنظيف وفني الصيانة. يختار العميل الخدمة ويحجز الكابتن ويدفع نقداً أو أونلاين ثم يقيّم العمل.</p>
+      <p>سيتولى التنفيذ مصطفى، مطوّر بخبرة تجارية تزيد على 4 سنوات في Flutter وتطوير الخوادم وربط الـ API وبوابات الدفع. من أحدث أعماله تطبيق SuperApp، وهو منصة خدمات متعددة (تسوّق، طلب طعام، توصيل، محادثة) منشورة على App Store و <a href="https://play.google.com/store/apps/details?id=ru.super_app" target="_blank" rel="noopener">Google Play</a>، مع موقع ويب على <a href="https://superap.ru" target="_blank" rel="noopener">superap.ru</a>.</p>
+    </section>
+
+    <section class="card">
+      <h2>نطاق المرحلة الأولى</h2>
+      <p>كل الأجزاء تعمل على خادم وقاعدة بيانات واحدة، وتدعم العربية والإنكليزية مع واجهة من اليمين إلى اليسار.</p>
+      <h3>1. تطبيق العميل (Android و iOS)</h3>
+      <ul>
+        <li>التسجيل وتسجيل الدخول برقم الهاتف ورمز تحقق (OTP)</li>
+        <li>تصفّح أقسام الخدمات والأقسام الفرعية والبحث</li>
+        <li>إيجاد الكابتن المناسب حسب الموقع والتقييم والسعر والخبرة والتوفر</li>
+        <li>إنشاء طلب مع وصف وصور وموقع على الخريطة وموعد مفضّل</li>
+        <li>الدفع أونلاين عبر بوابة دفع عراقية أو نقداً عند الإنجاز</li>
+        <li>تتبّع حالة الحجز، ومحادثة فورية مع الكابتن</li>
+        <li>تقييم الكابتن وكتابة مراجعة، وتقديم شكوى</li>
+        <li>الإشعارات الفورية، سجل الحجوزات، العناوين المحفوظة، الملف الشخصي</li>
+      </ul>
+      <h3>2. تطبيق الكابتن (Android و iOS)</h3>
+      <ul>
+        <li>التسجيل ورفع الهوية والشهادات للتحقق من قبل الإدارة</li>
+        <li>تقديم عدة خدمات من أقسام مفصّلة، مع سعر لكل خدمة</li>
+        <li>تحديد مناطق العمل وأوقات التوفر</li>
+        <li>استلام الحجوزات وطلبات المعاينة، وإرسال عروض الأسعار</li>
+        <li>تحديث حالة العمل والمحادثة مع العميل</li>
+        <li>كشف حساب: الأعمال، الأرباح، العمولة المستحقة، والتسويات</li>
+      </ul>
+      <h3>3. نظام الحجز</h3>
+      <ul>
+        <li>الحجز الفوري</li>
+        <li>الحجز المجدول بموعد</li>
+        <li>طلبات المعاينة: يزور الكابتن الموقع ويقيّم العمل أولاً</li>
+        <li>عروض أسعار من الكابتن، مع موافقة العميل قبل بدء العمل</li>
+      </ul>
+      <h3>4. النظام المالي</h3>
+      <ul>
+        <li>حساب تلقائي للعمولة لكل عمل، مع تحديد النسب من لوحة الإدارة حسب القسم أو حسب الكابتن</li>
+        <li>أرصدة الكباتن: الأرباح، العمولة المستحقة، والتسويات</li>
+        <li>تسجيل المعاملات النقدية، مع إيقاف حساب الكابتن تلقائياً عند تجاوز العمولة غير المدفوعة حداً معيّناً</li>
+        <li>الدفع الأونلاين عبر بوابة دفع عراقية واحدة</li>
+        <li>تسجيل التسويات وتأكيد دفعها من لوحة الإدارة</li>
+        <li>تقارير مالية: الإيرادات، العمولات، التسويات، والأرصدة المستحقة حسب الفترة والمدينة والكابتن</li>
+        <li>تسجيل كل حركة مالية في سجل محاسبي (Ledger)، لتبقى الأرقام متطابقة وقابلة للتدقيق دائماً</li>
+      </ul>
+      <h3>5. لوحة تحكم الإدارة (ويب)</h3>
+      <ul>
+        <li>إدارة العملاء والكباتن، والتحقق من وثائق الكباتن</li>
+        <li>إدارة الأقسام والخدمات والمدن ونسب العمولة</li>
+        <li>متابعة الحجوزات والمدفوعات والتسويات والشكاوى والتقييمات</li>
+        <li>التقارير المالية وإحصائيات المنصة</li>
+        <li>أكواد الخصم والإشعارات العامة</li>
+        <li>صلاحيات متعددة لفريق الإدارة</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>بنية قابلة للتوسّع والمراحل القادمة</h2>
+      <p>لا شيء في المرحلة الأولى مؤقت. نفس التطبيقات والخادم تكبر مع TASK.</p>
+      <ul>
+        <li>تُضاف الخدمات والأقسام والمدن الجديدة من لوحة الإدارة دون أي تطوير.</li>
+        <li>الخادم مبني بشكل وحدات (Modular)، فكل ميزة جديدة جزء مستقل.</li>
+        <li>السجل المحاسبي مصمم بحيث تُضاف المحافظ وخطط الاشتراك ومكافآت الدعوة وطرق الدفع الجديدة كامتداد للنظام، دون إعادة بناء.</li>
+      </ul>
+      <h3>المرحلة الثانية (بعد الإطلاق حسب الاستخدام الفعلي)</h3>
+      <ul>
+        <li>محافظ داخل التطبيق مع الشحن والاسترجاع التلقائي والسحب</li>
+        <li>خطط اشتراك للكباتن كبديل عن العمولة</li>
+        <li>نظام دعوة الأصدقاء ونقاط الولاء</li>
+        <li>مطابقة أذكى تعتمد على سرعة الاستجابة ونسبة الإنجاز وسجل الشكاوى</li>
+        <li>بوابات دفع إضافية</li>
+      </ul>
+      <h3>المرحلة الثالثة (النمو)</h3>
+      <ul>
+        <li>ميزات ذكاء اصطناعي: وصف المشكلة بالصوت أو الصورة والحصول على الخدمة المناسبة وسعر تقديري</li>
+        <li>التوسع إلى مدن وأقسام جديدة</li>
+        <li>دعم اللغة الكردية</li>
+      </ul>
+      <p class="muted">تُسعّر المراحل القادمة بشكل منفصل عند التخطيط لها.</p>
+    </section>
+
+    <section class="card">
+      <h2>التقنيات المستخدمة</h2>
+      <div class="table-scroll"><table>
+        <thead><tr><th>الجزء</th><th>التقنية</th></tr></thead>
+        <tbody>
+          <tr><td>تطبيقات الجوال</td><td>Flutter (كود واحد لـ Android و iOS)</td></tr>
+          <tr><td>الخادم الخلفي</td><td>Laravel (PHP)</td></tr>
+          <tr><td>قاعدة البيانات</td><td>PostgreSQL + Redis</td></tr>
+          <tr><td>لوحة الإدارة</td><td>React / Next.js</td></tr>
+          <tr><td>المحادثة الفورية</td><td>WebSockets</td></tr>
+          <tr><td>الإشعارات</td><td>Firebase Cloud Messaging</td></tr>
+          <tr><td>الخرائط والموقع</td><td>Google Maps</td></tr>
+          <tr><td>الاستضافة</td><td>خادم سحابي (AWS أو DigitalOcean)</td></tr>
+          <tr><td>الدفع الإلكتروني</td><td>بوابة عراقية واحدة: ZainCash أو Qi Card أو FastPay</td></tr>
+        </tbody>
+      </table></div>
+    </section>
+
+    <section class="card">
+      <h2>الجدول الزمني</h2>
+      <p>يكتمل التطوير خلال 8–10 أسابيع من استلام الدفعة الأولى، وبعض المراحل تسير بالتوازي.</p>
+      <div class="table-scroll"><table>
+        <thead><tr><th>المرحلة</th><th>الأسابيع</th><th>المخرجات</th></tr></thead>
+        <tbody>
+          <tr><td>1. تحليل المتطلبات</td><td>1</td><td>وثيقة متطلبات نهائية ومخطط الشاشات</td></tr>
+          <tr><td>2. تصميم الواجهات UI/UX</td><td>1–3</td><td>تصاميم Figma كاملة للتطبيقين واللوحة</td></tr>
+          <tr><td>3. الخادم وقاعدة البيانات والنظام المالي</td><td>2–8</td><td>API وربط بوابة الدفع على خادم تجريبي</td></tr>
+          <tr><td>4. تطبيقات الجوال</td><td>3–9</td><td>نسخ تجريبية قابلة للتثبيت</td></tr>
+          <tr><td>5. لوحة تحكم الإدارة</td><td>5–9</td><td>لوحة ويب مربوطة بالنظام</td></tr>
+          <tr><td>6. الاختبار والنسخة التجريبية</td><td>9–10</td><td>تجربة مع مستخدمين حقيقيين وإصلاح الملاحظات</td></tr>
+          <tr><td>7. الرفع على المتاجر</td><td>بعد انتهاء التطوير</td><td>رفع التطبيقات على App Store و Google Play وتشغيل الخادم الإنتاجي</td></tr>
+        </tbody>
+      </table></div>
+      <div class="note"><strong>النشر على المتاجر:</strong> تراجع Apple و Google كل تطبيق قبل نشره، ومدة المراجعة تحددها المتاجر وليس نحن. عادةً تستغرق بضعة أيام، وقد تطول أحياناً خاصة في أول رفع.</div>
+      <p>تحصل على تحديث أسبوعي ونسخ تجريبية تجرّبها طوال فترة التطوير.</p>
+    </section>
+
+    <section class="card">
+      <h2>التكلفة ودفعات السداد</h2>
+      <p>تكلفة المرحلة الأولى 5,000 دولار أمريكي:</p>
+      <div class="table-scroll"><table>
+        <thead><tr><th>البند</th><th class="num">التكلفة (USD)</th></tr></thead>
+        <tbody>
+          <tr><td>تصميم الواجهات UI/UX</td><td class="num">600</td></tr>
+          <tr><td>تطبيق العميل</td><td class="num">1,200</td></tr>
+          <tr><td>تطبيق الكابتن</td><td class="num">900</td></tr>
+          <tr><td>الخادم وقاعدة البيانات والنظام المالي</td><td class="num">1,400</td></tr>
+          <tr><td>لوحة تحكم الإدارة</td><td class="num">650</td></tr>
+          <tr><td>الاختبار والنشر على المتاجر</td><td class="num">250</td></tr>
+          <tr class="total"><td>المجموع</td><td class="num">5,000</td></tr>
+        </tbody>
+      </table></div>
+      <p>كل دفعة مرتبطة بإنجاز فعلي تراه قبلها:</p>
+      <div class="table-scroll"><table>
+        <thead><tr><th>الدفعة</th><th>متى تُستحق</th><th class="num">النسبة</th><th class="num">المبلغ (USD)</th></tr></thead>
+        <tbody>
+          <tr><td>1</td><td>عند توقيع الاتفاق وبدء العمل</td><td class="num">30%</td><td class="num">1,500</td></tr>
+          <tr><td>2</td><td>عند اعتماد التصاميم النهائية</td><td class="num">20%</td><td class="num">1,000</td></tr>
+          <tr><td>3</td><td>عند تسليم النسخ التجريبية الكاملة</td><td class="num">30%</td><td class="num">1,500</td></tr>
+          <tr><td>4</td><td>عند النشر على المتاجر والتسليم النهائي</td><td class="num">20%</td><td class="num">1,000</td></tr>
+        </tbody>
+      </table></div>
+      <p class="muted">رسوم الخدمات الخارجية يدفعها العميل مباشرة: حساب المطوّر في Apple (99 دولاراً سنوياً) و Google (25 دولاراً مرة واحدة)، الاستضافة، رسائل SMS، خرائط Google عند تجاوز الحد المجاني، ورسوم بوابة الدفع على كل عملية.</p>
+    </section>
+
+    <section class="card">
+      <h2>الدعم والصيانة والملكية</h2>
+      <div class="note"><strong>6 أشهر دعم وصيانة مجانية بعد الإطلاق:</strong> إصلاح الأخطاء في الميزات المتفق عليها، مراقبة الخادم، والتحديثات اللازمة لإصدارات Android و iOS الجديدة. بعدها يمكن الاتفاق على خطة صيانة شهرية اختيارية. الميزات الجديدة تُسعّر بشكل منفصل لكل مرحلة.</div>
+      <p><strong>ملكية كاملة:</strong> بعد الدفعة الأخيرة تملك الكود المصدري الكامل والتصاميم وجميع الحسابات. التطبيقات تُنشر على حسابات المطوّر الخاصة بك والخوادم تعمل باسمك.</p>
+      <h3>المخرجات</h3>
+      <ul>
+        <li>تطبيق العميل وتطبيق الكابتن على App Store و Google Play</li>
+        <li>لوحة تحكم الإدارة على نطاقك (الدومين)</li>
+        <li>الخادم وقاعدة البيانات على استضافة باسمك</li>
+        <li>الكود المصدري الكامل وملفات التصميم (Figma)</li>
+        <li>توثيق الـ API ودليل استخدام لوحة الإدارة</li>
+        <li>جلسة تدريب لفريق الإدارة</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>ما يوفّره العميل والخطوات التالية</h2>
+      <h3>ما يوفّره العميل</h3>
+      <ul>
+        <li>الشعار والهوية البصرية</li>
+        <li>قائمة أقسام الخدمات والمدن المستهدفة عند الإطلاق</li>
+        <li>حسابا المطوّر في Apple و Google، والنطاق والاستضافة</li>
+        <li>حساب تاجر (Merchant) لدى بوابة الدفع المختارة، ويُفضّل فتحه مبكراً لأن الموافقة قد تستغرق وقتاً</li>
+        <li>سياسة الخصوصية وشروط الاستخدام</li>
+        <li>مراجعة واعتماد كل مرحلة خلال 5 أيام عمل</li>
+      </ul>
+      <h3>الخطوات التالية</h3>
+      <ol>
+        <li>مكالمة قصيرة لتأكيد القائمة النهائية للمرحلة الأولى</li>
+        <li>توقيع الاتفاق واستلام الدفعة الأولى</li>
+        <li>بدء تحليل المتطلبات في نفس الأسبوع</li>
+      </ol>
+      <p class="muted">العرض ساري لمدة 30 يوماً من تاريخه.</p>
     </section>
   </main>
 
